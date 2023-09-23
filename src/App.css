@@ -1,0 +1,104 @@
+.App{
+  display: flex;
+}
+p{
+  font-size: 6px;
+}
+.left-section{
+  padding: 120px 240px;
+  width: 40%;
+  box-sizing: border-box;
+  min-width: 700px;
+  
+}
+.signIn-details{
+  display: flex;
+  flex-direction: column;
+}
+.signIn-details input{
+  border: none;
+  border-bottom: 1px solid black;
+  height: 40px;
+}
+.signIn-details button[type=submit]{
+  background-color: black;
+  margin-top: 20px;
+  height: 30px;
+  border-radius: 6px;
+  color: white;
+}
+.signIn-details button{
+  margin-bottom: 20px;
+  height: 30px;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid gainsboro;
+}
+.createAccount{
+  width: 250px;
+  margin: 0 auto;
+}
+.createAccount span{
+  text-decoration: underline;
+}
+.right-section{
+  color: white;
+  height: 100vh; 
+  /* 整个窗口的高度 */
+  width: 60%;
+  background-image: url(../public/photo-1497366811353-6870744d04b2.jpeg) ;
+  background-repeat:no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
+}
+.testimonial{ 
+  margin-bottom: 60px;
+  border: 4px solid greenyellow;
+  position: relative;
+}
+.testimonial p{
+  font-size: 36px;
+}
+.testimonial div{
+  width: 15px;
+  height: 15px;
+  background-color: greenyellow;
+  position: absolute;
+}
+.box1{
+  bottom: -8px;
+  left: -10px;
+}
+.box2{
+  right: -10px;
+  top: -8px;
+}
+.box3{
+  right: -10px;
+  bottom: -8px;
+}
+.box4{
+  left: -10px;
+  top:-8px;
+}
+.testimonialCharacter{
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.testimonialOrigin{
+  font-size: 15px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.testimonialOrigin button{
+  background: none;
+  border: none;
+}
